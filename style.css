@@ -1,4 +1,6 @@
  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/*Спецификация*/
 body 
 {
     font-family: 'Times New Roman', sans-serif;
@@ -32,9 +34,10 @@ ul, li
 {
  text-transform: uppercase;         
  font-family: 'Proxima Nova', sans-serif;   
-  color: #316e6b;
- font-weight:bold;
+ color: #316e6b;
+ font-weight:800;
  font-size:28px;
+ padding-left: 55px;
  }
  .phone
  {
@@ -72,9 +75,14 @@ ul, li
    width: 100%;
    height: 400px; 
    padding-top:25px;
-   height:400px;
+   
       }
-      
+ .p
+ {
+  padding-right:15px; 
+  font-weight:200;
+  font-size:15px;   
+     }     
  .getin
 {
  padding-top:80px;   
@@ -207,9 +215,18 @@ ul, li
 {
     .header
 {
- padding-top: 13px;    
- font-size: 15px;    
+ padding-top: 20px;    
+ font-size: 11px; 
+ font-weight:700;       
  }
-    
-    
-    }
+.menu__item .btn
+ {   
+  margin-right:20px;  
+  font-size: 12px;
+ }
+ .logo
+{
+ font-size:19px;
+ }
+ 
+}
