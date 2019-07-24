@@ -1,0 +1,195 @@
+ @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/*Спецификация*/
+body 
+{
+    font-family: 'Times New Roman', sans-serif;
+    color: #b2c7c6;
+}
+
+ul, li
+{
+ display:block;
+ padding:0;
+ margin:0;   
+ }
+ li a
+ {
+ color: #83a7a5; 
+ }
+ h2
+ {
+  color: #316e6b;    
+     }
+.header
+{
+ padding-top: 35px;    
+ color: #b2c7c6;
+ font-size:17px;
+ font-family: 'Montserrat', sans-serif;   
+     
+ }
+ 
+ .logo
+{
+ text-transform: uppercase;         
+ font-family: 'Proxima Nova', sans-serif;   
+  color: #316e6b;
+ font-weight:bold;
+ font-size:28px;
+ }
+ .phone
+ {
+    padding-top: 5px; 
+    color: #97b4b3;
+     }
+  .fa-phone
+ {
+     color: #83a7a5;
+     }
+ 
+ .menu
+ {
+  padding-top: 5px;       
+  }
+ .menu__item
+ {
+  margin-right:20px;   
+ }
+ 
+ .menu__item a
+ {
+ text-transform: uppercase;    
+ }
+  .masthead
+ {
+     
+     } 
+  .adress
+  {
+      
+      }  
+  #map
+  {
+   width: 100%;
+   height: 400px; 
+   padding-top:25px;
+   
+      }
+      
+ .getin
+{
+ padding-top:80px;   
+ color: #83a7a5;
+ text-align:center;
+ font-family: 'Roboto', sans-serif;      
+ font-size:21px; 
+ }
+ .get
+ {
+  font-size:37px; 
+  color: #0f5f5c;
+     }
+ .contact
+ {
+     
+    padding-top: 75px; 
+
+     }
+ .headquarter
+ {
+ border: 2px solid #b2c7c6;    
+ font-family: 'Roboto', sans-serif;      
+ font-size:21px; 
+ padding-top: 40px; 
+ padding-bottom: 55px; 
+ padding-right: 100px; 
+ padding-left: 35px;
+ border-style:dashed;
+     }
+.headquarter .fa
+{
+  color: #6fb048;  
+    }
+ .color
+ {
+  color: #316e6b; 
+    }
+ 
+ .calltoaction
+ {
+    padding-top: 100px;
+    
+     }
+ .btn
+ {
+     text-transform: uppercase;    
+     }
+  .like
+  {
+ font-family: 'Roboto', sans-serif;      
+ color: #316e6b;  
+ font-size:37px;
+      }
+  .image {
+	width: 100%; /* for IE 6 */
+    filter: hue-rotate(1000deg);  
+    -ms-filter: hue-rotate(1000deg);
+    -webkit-filter: hue-rotate(2000deg);
+    -moz-filter: hue-rotate(1000deg);
+    -o-filter: hue-rotate(1000deg);
+}
+
+   
+   .doyou
+  {
+    color: #83a7a5;  
+    font-size:21px;  
+      } 
+  .form-group .fa
+  {
+    padding-left: 25px;
+    color: #6fb048;   
+      } 
+  .footer
+  {
+    font-size:17px;   
+    padding-top: 100px;    
+      } 
+   .ymaps-layers-pane {
+    filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+}
+.footer_top
+{
+    padding-right: 65px; 
+    }
+.footer_bottom
+  {
+    font-size:17px;   
+    padding-top: 90px; 
+    padding-right: 75px;   
+      } 
+      
+.social a {
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 46px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.twitter a {background: #00acee; color: #fff;}
+.instagram a {background: #3f729b; color: #fff;}
+.facebook a {background: #3b5998; color: #fff;}
+.dribbble a {background: #ea4c89; color: #fff;}
+.github a {background: #000; color: #fff;}
+
