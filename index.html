@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WAPIK</title>
-    <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="initial-scale=1.0">
 </head>
 <body >
-
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="col-2 ">
+         <div class="col-1 "></div>
+            <div class="col-1 ">
                 <p class="logo">Wapik</p>  
             </div>
  
-            <div class="col-2 ">
+            <div class="col-3 ">
       
             <div class="phone">
             <i class="p">|</i>  <i class="fa fa-phone"></i>
@@ -50,41 +50,28 @@
           </div>
         </div>
 </header>
+   <div class="ymaps-layers-pane" id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13031.708114701998!2d-82.46704317383934!3d35.258071131029084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1563978282423!5m2!1sru!2sus" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>       
 
-<div class="masthead">
-        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.9722815186774!2d-82.46303648565237!3d35.25694536073289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8859c3ee58fd7087%3A0xf2768ab9d42bc65a!2zNjEwIE92ZXJsb29rIERyICMzMjMsIEZsYXQgUm9jaywgTkMgMjg3MzEsINCh0KjQkA!5e0!3m2!1sru!2sru!4v1563816542105!5m2!1sru!2sru" width="1500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-         -->
-         <div class="ymaps-layers-pane" id="map"></div>
-    <script type="">
-        var map;
-        function initMap() {
-            map = new google.maps.Map(document.getElementById('map'), {
-                center: { lat: 28.9185449, lng: -81.9876765 },
-                zoom: 14
-            });
-        }
-    </script>
-         <script type="" async defer 
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJcFEGLCeNC-yFIaKETY0kVpBbP-VgCBM&callback=initMap">
-        </script>
-         
-</div>
 
 <section class="getin">
     <div class="container ">
-    <div class="row">
+        <div class="row">
             <div class="col-5 mx-auto">
                 <h3 class="get">Get In Touch Witch Us</h3>
+                <i class="b">------------</i>
                 <p>We are here to help/ Want to learn more about our servicer?<br />
                 Please get in touch,we'd love to hear from you!</p>
             </div>
-
-    </div>    
+        </div>
     </div>
 </section>
 <section class="contact">
     <div class="container ">
-<div class="row">    <div class="col-6">                <div class="form">                    <form action="#" id="formid">	
+        <div class="row">
+            <div class="col-8">
+                <div class="form">
+                    <form action="#" id="formid">	
 								<div class="form-group">
 									<input type="text" class="form-control" name="name" placeholder="Name" required="">
 								</div>
@@ -98,14 +85,18 @@
 								</div> 
 
 								<div class="form-group">
-									<textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
+									<textarea class="form-control" name="message" rows="6" placeholder="Message"></textarea>
 								</div>
 
 								<div class="center-content">
 									<input type="submit" value="SEND MESSAGE" class="btn btn-success">
 								</div>			
-					</form>                </div>            </div>            <div class="col-4 ml-auto">                <div class="headquarter">
-                            <h4 class="color">HEADQUARTER</h4>
+					</form>
+                </div>
+            </div>
+            <div class="col-4 ml-auto">
+                <div class="headquarter">
+                            <h5 class="color">HEADQUARTER</h5>
 								<p>
 									<i class="fa fa-map-marker"></i> 
 									610 Overlook Circle<br />
@@ -114,22 +105,32 @@
 								</p>
 								
 								<p><i class="fa fa-phone"></i> +62 202 555 0117</p>
-								<p class="color"><i class="fa fa-envelope"></i> hi@wapik.com </p>                 </div>            </div>
-    </div>
+								<p class="color"><i class="fa fa-envelope"></i> hi@wapik.com </p>
+                 </div>
+            </div>
+        </div>
     </div>
 </section>
-<section class="calltoaction">
-<img src="images/fon.png" alt="" class="image">
+<section class="calltoaction ">
+<div class="img">
     <div class="container">
-        <div class="row">          <div class="col-6">          <div class="like" >
-          
-                           <h2 >Do You Like Wapik? Download it Now</h2>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-7">
+          <div class="like" >
+                           <h4><br />Do You Like Wapik? Download it Now</h4>
                             <p class="doyou">Aenean eu leo quam. Pellentesque ornare sem 
-                            lacinia quam venenatis vestibulum.</p>
-           </div>           </div>           <div class="col-4 ml-auto">                <div class="download">
+                            lacinia quam venenatis vestibulum.</p><br />
+           </div>
+           </div>
+           <div class="col-4 ml-auto">
+                <div class="like"><br />
                      <a href="#" class="btn btn-success btn-larg">download now! - FREE forever</a>
-                </div>            </div>           </div>
-    </div>
+                </div>
+            </div>
+           </div>
+    </div> 
+</div>
 </section>
 
 <footer class="footer">
@@ -137,38 +138,50 @@
 <div class="container">
 <div class="footer_top"> 
         <div class="row">
+                <div class="col-1"></div>
                 <div class="col-2">
-                <h2 class="logo">wapik</h2>
+                <h5 class="logo">wapik</h5>
                           <ul>
                                 <li ><a href="" class="color">@: hi@wapik.com</a></li>
                                 <li><a href="">p: +62 202 555 0117</a></li>
                                 <li><a href="">a: 610 Overlook Circle Suite 323</a></li>
                                 <li><a href="">Kalamazoo, MI 49009</a></li>
-                          </ul>                </div>
+                          </ul>
+                </div>
 
                 <div class="col-2">
-                <h2>Company</h2>
+                <h5>Company</h5>
                           <ul>
                                 <li><a href="">Home</a></li>
                                 <li><a href="">About Us</a></li>
                                 <li><a href="">Pricing</a></li>
                                 <li><a href="">Contact Us</a></li>
-                          </ul>                </div>                <div class="col-2 ml-auto">
-                <h2>Others</h2>
+                          </ul>
+                </div>
+
+                <div class="col-2 ml-auto">
+                <h5>Others</h5>
                             <ul>
                                 <li><a href="">Help & Support</a></li>
                                 <li><a href="">Privacy Policy</a></li>
                                 <li><a href="">Terms</a></li>
                                 <li><a href="">Sitemap</a></li>
-                            </ul>                </div>                <div class="col-3 ml-auto ">
-                <h2 class="otstyp">Newsletter</h2>
+                            </ul>
+                </div>
+
+                <div class="col-3 ml-auto ">
+                <h5 class="otstyp">Newsletter</h5>
                           <p>Subscribe to our newsletter and get all the cool news</p>
                           <form class="navbar-form navbar-left email_sender" role="search">
                                 <div class="form-group d-flex">
                                     <input type="text" class="form-control" placeholder="Enter Email" />
                                      <span><i class="fa fa-paper-plane"></i></span>
-                           </div>                            </form>
-                </div>            </div>        </div>
+                           </div>
+                            </form>
+
+                </div>
+            </div>
+        </div>
 </div>  
     <div class="container">
          <div class="footer_bottom"> 
@@ -178,19 +191,19 @@
          </div>
          <div class="col-3 ml-auto d-flex">
          <div class="social twitter">
-            <a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter fa-1x"></i></a>
          </div>
          <div class="social facebook">
-            <a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>    
+            <a href="#" target="_blank"><i class="fa fa-facebook fa-1x"></i></a>    
          </div>
          <div class="social instagram">
-            <a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram fa-1x"></i></a>
          </div>
          <div class="social dribbble">
-            <a href="#" target="_blank"><i class="fa fa-dribbble fa-2x"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-dribbble fa-1x"></i></a>
         </div>
          <div class="social github">
-            <a href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-github fa-1x"></i></a>
         </div>
         
          </div>
