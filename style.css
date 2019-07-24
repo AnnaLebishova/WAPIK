@@ -195,7 +195,7 @@ ul, li
 {
     .header
 {
- padding-top: 25px;    
+ padding-top: 80%;    
  font-size:17px; 
      
  }
@@ -207,8 +207,8 @@ ul, li
 {
     .header
 {
- padding-top: 25px;    
- font-size:17px;    
+ padding-top: 80%;    
+ font-size: 80%;    
  }
     
     
