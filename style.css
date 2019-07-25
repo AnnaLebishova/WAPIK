@@ -5,6 +5,7 @@ body
 {
     font-family: 'Times New Roman', sans-serif;
     color: #b2c7c6;
+    font-size: 15px; 
 }
 
 ul, li
@@ -24,8 +25,6 @@ ul, li
 .header
 {
  padding-top: 35px;    
- color: #b2c7c6;
- font-size:13px;
  font-family: 'Montserrat', sans-serif;   
      
  }
@@ -65,26 +64,21 @@ ul, li
  }
  .menu__item .btn-success
  {
+ font-size:14px;       
  height:30px;    
- padding-top: 1px;    
- width:120px;
- font-size: 13px;    
+ padding-top: 3px;    
+ width:140px;
  }
- 
-  .adress
-  {
-      
-      }  
+  
   #map
   {
-   padding-top:25px;
-   
+   padding-top:15px;
+   height:360px;
       }
  .p
  {
   padding-right:15px; 
   font-weight:200;
-  font-size:15px;   
      }
   .b
  { 
@@ -92,10 +86,16 @@ ul, li
   font-size:10px; 
   line-height:0px;   
      }    
-          
+   .calltoaction .download
+ { 
+  width:80;  
+  font-weight:200;
+  padding-top:10px; 
+  font-size:10px;
+ }          
  .getin
 {
- padding-top:80px;   
+ padding-top: 80px;   
  color: #83a7a5;
  text-align:center;
  font-family: 'Roboto', sans-serif;      
@@ -118,14 +118,19 @@ ul, li
  .headquarter
  {
  border: 2px solid #b2c7c6;    
- font-family: 'Roboto', sans-serif;      
- font-size:18px; 
+ font-family: 'Roboto', sans-serif;       
  padding-top: 40px; 
  padding-bottom: 45px; 
  padding-right: 100px; 
  padding-left: 35px;
  border-style:dashed;
      }
+ .headq
+   {
+    
+    text-align:center;  
+       }    
+     
 .headquarter .fa
 {
   color: #6fb048;  
@@ -151,14 +156,13 @@ ul, li
  .btn
  {
      text-transform: uppercase; 
-     height:40px;
      }
   .like
   {
  padding-top: 20px;     
  font-family: 'Roboto', sans-serif;      
  color: #316e6b;  
- font-size:30px;
+ 
       }
   .image {
 	width: 100%; /* for IE 6 */  
@@ -170,20 +174,31 @@ ul, li
    .doyou
   {
     color: #83a7a5;  
-    font-size:15px;  
+    font-size:17px;  
       } 
   .headquarter .fa
   {
     padding-left: 25px;
     color: #6fb048;   
       } 
+   .headq
+   {
+    font-size: 20px;   
+       }
+      
   #formid
   {
     padding-right: 50px;    
       }
+      
+  .center-content .btn-success
+ {
+  width:150px;
+  height:40px;
+  font-size: 15px;
+     }    
   .footer
   {
-    font-size:17px;   
     padding-top: 100px;    
       } 
    .ymaps-layers-pane {
@@ -192,15 +207,16 @@ ul, li
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);
+    
 }
 .footer_top
 {
     padding-right: 65px; 
-    font-size:17px;
+    
     }
 .footer_bottom
   {
-    font-size:17px;   
+     
     padding-top: 90px; 
     padding-right: 75px;   
       } 
@@ -224,57 +240,103 @@ ul, li
 .dribbble a {background: #ea4c89; color: #fff;}
 .github a {background: #000; color: #fff;}
 
-@media screen and (max-width: 960px)
+@media screen and (max-width: 970px)
 {
- .header
+ body 
+{
+    font-size: 10px; 
+}   
+    .header
 {
  padding-top: 18px;    
- font-size: 8px; 
  font-weight:700;       
  }
  
  .menu__item .btn-success
  {
   padding-top: 1px;    
-  width:103px;
+  width:50px;
   height:20px;
   font-size: 8px;
      }
  .logo
  {
- font-size:19px;
- padding-left: 25px;
+ font-size:15px;
+ padding-left: 5px;
  }
  #map
   {
    height: 290px;
    padding-top:35px;
-      }
-.phone
- {
-    padding-top: 5px; 
-    color: #97b4b3;
-    font-size: 10px;
+      } 
+.getin
+{
+ padding-top:60px;    
+ }
+ .get
+ { 
+  font-size:19px; 
      }
-    
-    
+ .contact
+ { 
+    padding-top: 75px; 
+  }   
+ 
+  #formid
+  {
+    padding-left: 150px;
+    width:80%;
+    height:30%;    
+      }
+  .center-content .btn-success
+ {
+  width:120px;
+  height:30px;
+  font-size: 14px;
+     }
+   .headquarter
+ {      
+ padding-top: 20px; 
+ padding-bottom: 25px; 
+ padding-right: 50px; 
+ padding-left: 15px;
+     }   
+   .like
+  { 
+ font-size: 15px;   
+  }
+   .doyou
+  { 
+   
+  }
+  .footer
+  { 
+    padding-top: 100px;  
+  }
+  .headq
+   {
+    font-size: 14px;   
+   } 
     }
 
-@media screen and (max-width: 1120px)
+@media screen and (max-width: 1200px)
 {
+ body 
+{
+    font-size: 12px; 
+}   
     .header
 {
  padding-top: 18px;    
- font-size: 11px; 
  font-weight:700;       
  }
  
  .menu__item .btn-success
  {
   padding-top: 1px;    
-  width:103px;
+  width:100px;
   height:20px;
-  font-size: 11px;
+  font-size: 10.5px; 
      }
  .logo
 {
@@ -284,13 +346,13 @@ ul, li
  #map
   {
    height: 290px;
-   padding-top:35px;
+   padding-top:15px;
       }
 
 .getin
 {
  padding-top:60px;    
- font-size:12px; 
+ 
  }
  .get
  { 
@@ -315,7 +377,6 @@ ul, li
      }
    .headquarter
  {      
- font-size:12px; 
  padding-top: 20px; 
  padding-bottom: 25px; 
  padding-right: 50px; 
@@ -327,22 +388,16 @@ ul, li
   }
    .doyou
   { 
-    font-size:14px; 
+   
   }
   .footer
   {
-    font-size:15px;   
+    
     padding-top: 100px;  
   
   }
   .headq
    {
-    font-size: 16px;   
+    font-size: 14px;   
        }
-  
-  
-  
-  
-  
-  
   }
