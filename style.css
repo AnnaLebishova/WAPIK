@@ -1,6 +1,6 @@
  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-/*Спецификация*/
+/*Г‘ГЇГҐГ¶ГЁГґГЁГЄГ Г¶ГЁГї*/
 body 
 {
     font-family: 'Times New Roman', sans-serif;
@@ -28,7 +28,11 @@ ul, li
  font-family: 'Montserrat', sans-serif;      
  padding-left:30px;      
  }
- 
+ #formid
+  {
+    padding-left: 150px;
+    height:80%;    
+      }
  .logo
 {
  text-transform: uppercase;         
