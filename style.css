@@ -1,6 +1,6 @@
  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-/*Спецификация*/
+/*Г‘ГЇГҐГ¶ГЁГґГЁГЄГ Г¶ГЁГї*/
 body 
 {
     font-family: 'Times New Roman', sans-serif;
@@ -28,7 +28,11 @@ ul, li
  font-family: 'Montserrat', sans-serif;      
  padding-left:30px;      
  }
+<<<<<<< HEAD
   #formid
+=======
+ #formid
+>>>>>>> 233acff85eb3242f6918d11580654425ac7a0999
   {
     padding-left: 150px;
     height:80%;    
@@ -828,9 +832,16 @@ h5{font-size: 8px; }
     
 }    
 
+<<<<<<< HEAD
 .twitter a {background: #00acee; color: #fff;}
 .instagram a {background: #3f729b; color: #fff;}
 .facebook a {background: #3b5998; color: #fff;}
 .dribbble a {background: #ea4c89; color: #fff;}
 .github a {background: #000; color: #fff;}
     }   
+=======
+
+
+
+    }
+>>>>>>> 233acff85eb3242f6918d11580654425ac7a0999
