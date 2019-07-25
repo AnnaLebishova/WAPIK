@@ -28,7 +28,11 @@ ul, li
  font-family: 'Montserrat', sans-serif;      
  padding-left:30px;      
  }
- 
+  #formid
+  {
+    padding-left: 150px;
+    height:80%;    
+      }
  .logo
 {
  text-transform: uppercase;         
@@ -143,8 +147,8 @@ ul, li
  .calltoaction 
  {
     padding-top: 100px;
-    
      }
+     
  .calltoaction .img
  {
      background-image:url("images/fon.png");
