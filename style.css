@@ -193,7 +193,8 @@ ul, li
      }    
   .footer
   {
-    padding-top: 100px;    
+    padding-top: 100px; 
+    font-family: 'Roboto', sans-serif;    
       } 
    .ymaps-layers-pane {
     filter: grayscale(1);
