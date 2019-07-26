@@ -11,8 +11,7 @@ body
 ul, li
 {
  display:block;
- padding:0;
- margin:0;   
+    
  }
  li a
  {
@@ -31,7 +30,7 @@ ul, li
   #formid
   {
     padding-left: 150px;
-        
+    width: 520px ;   
       }
  .logo
 {
@@ -135,10 +134,7 @@ ul, li
 {
   color: #6fb048;  
     }
- .fa-paper-plane
-{
-  color: #6fb048;  
-    }   
+   
  .color
  {
   color: #316e6b; 
@@ -151,7 +147,7 @@ ul, li
      
  .calltoaction .img
  {
-     background-image:url("images/fon.png");
+     background-image:url("images/fon1.jpg");
  }
  .btn
  {
@@ -194,7 +190,8 @@ ul, li
   .footer
   {
     padding-top: 100px; 
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif;
+        
       } 
    .ymaps-layers-pane {
     filter: grayscale(1);
@@ -203,17 +200,29 @@ ul, li
     -moz-filter: grayscale(1);
     -o-filter: grayscale(1);   
 }
-.footer_top
+.footer_top 
 {
     padding-right: 55px; 
-    
+    margin:0 20px 0 20px;
     }
 .footer_bottom
   {    
     padding-top: 90px; 
     padding-right: 75px;   
       } 
-      
+  .footer i.fa {
+  line-height: 30px;
+  margin-right: -220px;
+  z-index: 1;
+}
+.fa-paper-plane
+{
+  color: #6fb048;  
+  padding-left:200px;
+    } 
+ .footer input[type=text]{
+   width:230px;
+}
 .social a {
     text-align: center;
     width: 36px;
@@ -327,9 +336,23 @@ ul, li
    {
     font-size: 14px;   
        }
+    .footer i.fa {
+  line-height: 30px;
+  margin-right: -210px;
+  z-index: 1;
+}
+.fa-paper-plane
+{
+  color: #6fb048;  
+  padding-left:200px;
+    } 
+.footer input[type=text]{
+   width:250px;
+}      
+       
   }
   
-  @media screen and (max-width: 980px)
+  @media screen and (max-width: 990px)
 {
   body 
 {
@@ -386,7 +409,8 @@ h5{font-size: 13px; }
    #formid
   {
     padding-left: 100px;
-    height:30%;    
+    
+    width:470px;    
       }
   .center-content .btn-success
  {
@@ -422,7 +446,7 @@ h5{font-size: 13px; }
     .footer_top
 {
     padding-right: 55px; 
-    
+    margin-right:20px;
     }
 .footer_bottom
   {
@@ -430,10 +454,22 @@ h5{font-size: 13px; }
     padding-top: 90px; 
     padding-right: 75px;   
       }    
-       
+      .footer i.fa {
+  line-height: 30px;
+  margin-right: -130px;
+  z-index: 1;
+}
+.fa-paper-plane
+{
+  color: #6fb048;  
+  padding-left:120px;
+    } 
+.footer input[type=text]{
+   width:160px;
+}   
     }
     
-   @media screen and (max-width: 755px)
+   @media screen and (max-width: 770px)
 {
  
   body 
@@ -475,9 +511,10 @@ h5{font-size: 12px; }
      }
  .polosa
  {
-  padding-right:15px; 
+  padding-left:15px;   
+  padding-right:10px; 
   font-weight:200;
-  font-size: 1px;
+  font-size: 11px;
   }
  #map
   {
@@ -502,11 +539,11 @@ h5{font-size: 12px; }
    #formid
   {
     padding-left: 50px;
-    height:30%;    
+    width:300px;    
       }
    .headquarter
    {padding: 20px 40px 15px 25px;
-    padding:
+   
     }    
       
   .center-content .btn-success
@@ -570,7 +607,19 @@ h5{font-size: 12px; }
     padding: 4px;
     
 }    
-
+.footer i.fa {
+  line-height: 30px;
+  margin-right: -140px;
+  z-index: 1;
+}
+.fa-paper-plane
+{
+  color: #6fb048;  
+  padding-left:120px;
+    } 
+.footer input[type=text]{
+   width:150px;
+}
 .twitter a {background: #00acee; color: #fff;}
 .instagram a {background: #3f729b; color: #fff;}
 .facebook a {background: #3b5998; color: #fff;}
@@ -592,7 +641,7 @@ h5{font-size: 12px; }
 {
  padding-top: 18px;    
  font-size: 10px;
- padding-left:0px; 
+ padding-right:60px; 
  text-align:center;   
  }
  .menu__item
@@ -645,8 +694,8 @@ h5{font-size: 12px; }
  
    #formid
   {
-    padding-left: 30px;
-    height:30%;    
+    padding-left: 70px;
+    width:200px;    
       }
    .headquarter
    {padding: 20px 30px 15px 25px;
@@ -668,7 +717,7 @@ h5{font-size: 12px; }
   width:80;  
   padding-top:10px; 
   font-size:10px;
-  margin:  0px 90px 10px 0;
+  margin:  0px 190px 30px 0;
  }    
     
    .like
@@ -693,17 +742,26 @@ h5{font-size: 12px; }
     }
 . container .footer_bottom
   {
-     
     padding-top: 90px; 
     padding-left: 15px;   
-      }    
+      }   
+    .footer_bottom p
+  {
+    padding-left: 15px;   
+      }      
+       
    .social a {
     width: 26px;
     height: 26px;
     margin: 0 4px 4px 0;
-    padding: 4px;
-    
-}    
+    padding: 4px; 
+}   
+.form-control
+{
+   
+    font-size:9px;
+    }
+ 
 .otstyp
    {
    margin: 10px 4px 4px 0;    
@@ -715,7 +773,7 @@ h5{font-size: 12px; }
 .github a {background: #000; color: #fff;}
     }
     
- @media screen and (max-width: 370px)
+ @media screen and (max-width: 400px)
 {
   body 
 {
@@ -728,12 +786,13 @@ h5{font-size: 8px; }
 .header
 {
  padding-top: 18px;    
- font-size: 9px;
- padding-left:15px; 
+ font-size: 8px;
+ padding-right:15px; 
  text-align:center;   
  }
  .menu__item
  {
+  
   margin-right:10px; 
  }
  .menu__item .btn-success
@@ -768,7 +827,7 @@ h5{font-size: 8px; }
 
 .getin
 {
- padding-top:60px;    
+ padding-top:30px;    
  
  }
  .get
@@ -777,18 +836,19 @@ h5{font-size: 8px; }
      }
  .contact
  { 
-    padding-top: 55px; 
+    padding-top: 35px; 
   }   
  
    #formid
   {
-    padding-left: 50px;
-    height:30%;    
+    padding-left: 40px;
+     width:280px;   
       }
    .headquarter
    {
-    padding: 15px 20px 10px 15px;
-    margin:25px 100px 10px 15px;
+    font-size:10px; 
+    padding: 10px 50px 10px 18px;
+    margin:20px 80px 10px 25px;
     }    
       
   .center-content .btn-success
@@ -806,7 +866,7 @@ h5{font-size: 8px; }
   width:60;  
   padding-top:10px; 
   font-size:8px;
-  margin:  0px 50px 10px 0;
+  margin:  0px 60px 10px 0;
  }    
     
    .like
@@ -822,30 +882,33 @@ h5{font-size: 8px; }
   }
   .headq
    {
-    font-size: 9px;   
+    font-size: 11px;   
        }
     .footer_top
 {
-   padding-left:5px;
+   padding-left:0px;
     font-size:8px;
     }
-    
-   .footer_top .col-xs-2
-  {
-   margin: 10px 0 4px 6px;
-    } 
-    
-    
+   
 . container .footer_bottom
   {
-    padding-top: 90px; 
-    padding-left: 15px;
-       
+    padding-top: 50px; 
+    padding-left: 15px; 
       }   
-   .otstyp
-   {
-   margin: 10px 4px 4px 0;    
-       } 
+       
+       .footer i.fa {
+  line-height: 20px;
+  margin-right: -80px;
+  z-index: 1;
+}
+.fa-paper-plane
+{
+  color: #6fb048;  
+  padding-left:60px;
+    } 
+ .footer input[type=text]{
+   width:100px;
+}      
    .social a {
     width: 18px;
     height: 18px;
