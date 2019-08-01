@@ -24,15 +24,20 @@ const app = new Vue({
     checkForm:function(e) {
       this.errors = [];
       
-      if(!this.name) this.errors.push("Name required.");
-      
+      if(!this.name) {this.errors.push("Name required.");
+      } else if(!this.validname(this.name)) {
+        this.errors.push("Name change required.");        
+      }
       if(!this.email) { this.errors.push("Email required.");
       } else if(!this.validEmail(this.email)) {
-        this.errors.push("Valid email required.");        
+        this.errors.push("Email change required.");        
       }
       if(!this.phone) { this.errors.push("Phone required.");
       }
-      if(!this.message) this.errors.push("Message required.");
+      if(!this.message) { this.errors.push("Message required.");
+      } else if(!this.validEmail(this.email)) {
+        this.errors.push("Message change required");        
+      }
       if(!this.errors.length) return true;
       e.preventDefault();
     },
@@ -41,8 +46,12 @@ const app = new Vue({
     return re.test(email);
     },
     validname:function(name) {
-      var val = /^[a-w]$/;
-    return val.test(name);
+      var re = /^[A-Za-zÀ-ßà-ÿ¨¸]/;
+    return re.test(name);
+    },
+    validmessage:function(message) {
+      var re = /^[à-ÿÀ-ß¸¨a-zA-Z0-9]+$/;
+    return re.test(message);
     }
   }
 })
