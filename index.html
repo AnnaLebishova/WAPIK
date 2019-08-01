@@ -12,15 +12,17 @@
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="col-1 "></div>
-                <div class="col-xs-1 ">
-                    <p class="logo">Wapik</p>  
-                </div>
+         <div class="col-1 "></div>
+            <div class="col-xs-1 ">
+                <p class="logo">Wapik</p>  
+            </div>
+ 
             <div class="col-xs-3 ">
-                <div class="phone">
-                    <i class="polosa">|</i>  <i class="fa fa-phone"></i>
-                      +62 202 555 0117
-                </div>
+      
+            <div class="phone">
+            <i class="polosa">|</i>  <i class="fa fa-phone"></i>
+              +62 202 555 0117
+            </div>
             </div>
 
             <div class="col-xs-7 ml-auto" >
@@ -44,11 +46,11 @@
                     </ul>
                 </nav>
             </div>
+          </div>
         </div>
-    </div>
 </header>
    <div class="ymaps-layers-pane">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13031.708114701998!2d-82.46704317383934!3d35.258071131029084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1563978282423!5m2!1sru!2sus" width="100%" id="map" frameborder="0" style="border:0" allowfullscreen></iframe>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13031.708114701998!2d-82.46704317383934!3d35.258071131029084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1563978282423!5m2!1sru!2sus" width="100%" id="map" frameborder="0" style="border:0" allowfullscreen></iframe>
    </div>       
 
 
@@ -68,15 +70,15 @@
     <div class="container ">
         <div class="row">
             <div class="col-xs-8">
+                <div id="app">
                 <div class="form">
-                    <div id="app">
-                        <form id="Form1 formid" @submit="checkForm" action="#" method="post" novalidate="true">
-                                    <p v-if="errors.length" class="error">
-                                        <b>Please correct the following error(s):</b>
-                                        <ul>
-                                            <li v-for="error in errors" id="error">{{ error }}</li>
-                                        </ul>
-                                    </p>
+                              <form id="Form1" class="formid" @submit="checkForm" action="#" method="post" novalidate="true">
+                              <div v-if="errors.length" class="error">
+                                <b>Please correct the following error(s):</b>
+                                <ul>
+                                  <li v-for="error in errors" id="error">{{ error }}</li>
+                                </ul>
+                              </div>
                                 <div class="form-group">
 									<input type="text" 
                                     class="form-control" 
@@ -84,10 +86,12 @@
                                     placeholder="Name" 
                                     v-model="name"
                                     maxlength="10">
-								</div>	
+								</div>
+										
 								<div class="form-group">
 									<input type="email" class="form-control" name="email" placeholder="Email" v-model="email">
-								</div>	
+								</div>
+										
 								<div class="form-group">
                                      <input type="tel" 
                                      v-model="phone"
@@ -98,15 +102,18 @@
                                      maxlength="17"
                                      class="form-control"
                                      v-phone pattern="[0-9]{1}[(][0-9]{3}[)] [0-9]{3}-[0-9]{2}-[0-9]{2}" required /><!--  maxlength="15" определяет количество допустимых символов(знаки, скобки, тире) -->
-								</div>
+								</div> 
+
 								<div class="form-group">
 									<textarea class="form-control" name="message" rows="6" placeholder="Message" v-model="message"></textarea>
 								</div>
-                                <div class="center-content">
+
+                              <div class="center-content">
 									<input type="submit" value="SEND MESSAGE" class="btn btn-success">
 								</div>	
-                        </form>
-                    </div>
+
+                            </form>
+                </div>
                 </div>
             </div>
             <div class="col-xs-4 mx-auto">
@@ -130,92 +137,99 @@
 <div class="img">
     <div class="container">
         <div class="row">
-          <div class="col-1">
-          </div>
-              <div class="col-xs-7">
-                  <div class="like" >
-                                   <h5><br />Do You Like Wapik? Download it Now</h5>
-                                    <p class="doyou">Aenean eu leo quam. Pellentesque ornare sem 
-                                    lacinia quam venenatis vestibulum.</p><br />
-                   </div>
-               </div>
-               <div class="col-xs-4 ml-auto">
-                    <div class="like"><br />
-                         <a href="#" class="btn btn-success btn-larg download">download now! - FREE forever</a>
-                    </div>
+          <div class="col-1"></div>
+          <div class="col-xs-7">
+          <div class="like" >
+                           <h5><br />Do You Like Wapik? Download it Now</h5>
+                            <p class="doyou">Aenean eu leo quam. Pellentesque ornare sem 
+                            lacinia quam venenatis vestibulum.</p><br />
+           </div>
+           </div>
+           <div class="col-xs-4 ml-auto">
+                <div class="like"><br />
+                     <a href="#" class="btn btn-success btn-larg download">download now! - FREE forever</a>
                 </div>
-        </div>
+            </div>
+           </div>
     </div> 
 </div>
 </section>
 <footer class="footer">
 
 <div class="container">
-    <div class="footer_top"> 
+<div class="footer_top"> 
         <div class="row">
                 <div class="col-1"></div>
-                    <div class="col-xs-3 ">
-                        <ul><h5 class="logo">wapik</h5>
-                            <li ><a href="" class="color">@: hi@wapik.com</a></li>
-                            <li><a href="">p: +62 202 555 0117</a></li>
-                            <li><a href="">a: 610 Overlook Circle <br /> Suite 323</a></li>
-                            <li><a href="">Kalamazoo, MI 49009</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-2 ">
-                        <ul><h5>Company</h5>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Pricing</a></li>
-                            <li><a href="">Contact Us</a></li>
-                        </ul>
-                    </div>
+                <div class="col-xs-3 ">
+                 <ul><h5 class="logo">wapik</h5>
+                         
+                                <li ><a href="" class="color">@: hi@wapik.com</a></li>
+                                <li><a href="">p: +62 202 555 0117</a></li>
+                                <li><a href="">a: 610 Overlook Circle <br /> Suite 323</a></li>
+                                <li><a href="">Kalamazoo, MI 49009</a></li>
+                          </ul>
+                </div>
 
-                    <div class="col-xs-2 ml-auto ">
-                        <ul><h5>Others</h5> 
-                            <li><a href="">Help & Support</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Terms</a></li>
-                            <li><a href="">Sitemap</a></li>
-                        </ul>
-                    </div>
+                <div class="col-xs-2 ">
+                <ul><h5>Company</h5>
+                          
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Contact Us</a></li>
+                          </ul>
+                </div>
 
-                    <div class="col-xs-3 ml-auto">
-                    <h5 class="otstyp">Newsletter</h5>
-                              <p>Subscribe to our newsletter and <br />get all the cool news</p>
-                              <form class="navbar-form navbar-left email_sender" role="search">
-                                    <div class="form-group d-flex">
-                                         <i class="fa fa-paper-plane"></i> <input type="text" class="form-control" placeholder="Enter Email" />
-                                    </div>
-                              </form>
-                    </div>
+                <div class="col-xs-2 ml-auto ">
+                <ul><h5>Others</h5>
+                            
+                                <li><a href="">Help & Support</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms</a></li>
+                                <li><a href="">Sitemap</a></li>
+                            </ul>
+                </div>
+
+                <div class="col-xs-3 ml-auto">
+                <h5 class="otstyp">Newsletter</h5>
+                          <p>Subscribe to our newsletter and <br />get all the cool news</p>
+                          <form class="navbar-form navbar-left email_sender" role="search">
+                                <div class="form-group d-flex">
+                                    
+                                     <i class="fa fa-paper-plane"></i> <input type="text" class="form-control" placeholder="Enter Email" />
+                                   
+                           </div>
+                            </form>
+
+                </div>
+            </div>
         </div>
-    </div>
 </div>  
     <div class="container">
          <div class="footer_bottom"> 
-             <div class="row">
-                <div class="col-xs-3">
-                    <p> All Rights Reserved 2015. </p>
-                </div>
-                <div class="col-3 ml-auto d-flex justify-content-center">
-                    <div class="social twitter">
-                        <a href="#" target="_blank"><i class="fa fa-twitter fa-1x"></i></a>
-                    </div>
-                    <div class="social facebook">
-                        <a href="#" target="_blank"><i class="fa fa-facebook fa-1x"></i></a>    
-                    </div>
-                    <div class="social instagram">
-                        <a href="#" target="_blank"><i class="fa fa-instagram fa-1x"></i></a>
-                    </div>
-                    <div class="social dribbble">
-                        <a href="#" target="_blank"><i class="fa fa-dribbble fa-1x"></i></a>
-                    </div>
-                    <div class="social github">
-                        <a href="#" target="_blank"><i class="fa fa-github fa-1x"></i></a>
-                    </div>
-                </div>
-            </div>
+         <div class="row">
+         <div class="col-xs-3">
+         <p> All Rights Reserved 2015. </p>
+         </div>
+         <div class="col-3 ml-auto d-flex justify-content-center">
+         <div class="social twitter">
+            <a href="#" target="_blank"><i class="fa fa-twitter fa-1x"></i></a>
+         </div>
+         <div class="social facebook">
+            <a href="#" target="_blank"><i class="fa fa-facebook fa-1x"></i></a>    
+         </div>
+         <div class="social instagram">
+            <a href="#" target="_blank"><i class="fa fa-instagram fa-1x"></i></a>
+         </div>
+         <div class="social dribbble">
+            <a href="#" target="_blank"><i class="fa fa-dribbble fa-1x"></i></a>
+        </div>
+         <div class="social github">
+            <a href="#" target="_blank"><i class="fa fa-github fa-1x"></i></a>
+        </div>
+        
+         </div>
+         </div>
         </div>
     </div>
 </footer>
