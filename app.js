@@ -11,7 +11,7 @@ Vue.directive('phone', {
   }
 });
 
-var app1 = new Vue({
+var app = new Vue({
   el:'#app',
   data:{
     errors:[],
