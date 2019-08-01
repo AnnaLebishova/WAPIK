@@ -288,7 +288,7 @@ li a
     padding-top: 75px; 
   }   
  
-   #formid
+   .formid
   {
     padding-left: 100px;
     height:100%; 
@@ -406,12 +406,15 @@ h5{font-size: 13px; }
     padding-top: 75px; 
   }   
  
-   #formid
+  .formid
   {
-    padding-left: 100px;
-    
-    width:470px;    
+    padding-left: 100px;  
       }
+  .form-group
+ {
+  width:230px;   
+     }     
+      
   .center-content .btn-success
  {
   width:120px;
@@ -536,11 +539,15 @@ h5{font-size: 12px; }
     padding-top: 75px; 
   }   
  
-   #formid
+  .formid
   {
     padding-left: 50px;
     width:300px;    
       }
+   .form-group
+    {
+        width:200px;   
+     }    
    .headquarter
    {padding: 20px 40px 15px 25px;
    
@@ -692,11 +699,16 @@ h5{font-size: 12px; }
     padding-top: 75px; 
   }   
  
-   #formid
+   .formid
   {
-    padding-left: 70px;
-    width:200px;    
+    padding-left: 130px;
+    padding-bottom:20px;
+    padding-right: 10px; 
       }
+   .form-group
+ {
+  width:170px;   
+     }    
    .headquarter
    {padding: 20px 30px 15px 25px;
     margin-right:10px;
@@ -839,7 +851,7 @@ h5{font-size: 8px; }
     padding-top: 35px; 
   }   
  
-   #formid
+   .formid
   {
     padding-left: 40px;
      width:280px;   
